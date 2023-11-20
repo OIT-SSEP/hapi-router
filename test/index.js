@@ -1,11 +1,11 @@
 'use strict'
 
-var lab = exports.lab = require('lab').script()
-var Hapi = require('@hapi/hapi')
-var expect = require('@hapi/code').expect
+const lab = exports.lab = require('@hapi/lab').script()
+const Hapi = require('@hapi/hapi')
+const expect = require('@hapi/code').expect
 
 lab.describe('hapi-router', () => {
-  var server
+  let server
 
   lab.beforeEach(() => {
     return (server = new Hapi.Server())
