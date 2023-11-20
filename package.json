@@ -11,7 +11,7 @@
     "url": "https://github.com/ou-oit/hapi-router.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@ou-oit:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "hapi",
