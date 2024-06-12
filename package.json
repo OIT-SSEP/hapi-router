@@ -1,5 +1,5 @@
 {
-  "name": "@ou-oit/hapi-router",
+  "name": "@oit-ssep/hapi-router",
   "version": "6.0.0",
   "description": "Opinionated route loader for hapi",
   "main": "./lib",
@@ -8,10 +8,10 @@
     "test-dirty": "lab -v -C -a @hapi/code -m 5000"
   },
   "repository": {
-    "url": "https://github.com/ou-oit/hapi-router.git"
+    "url": "https://github.com/oit-ssep/hapi-router.git"
   },
   "publishConfig": {
-    "@ou-oit:registry": "https://npm.pkg.github.com"
+    "@oit-ssep:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "hapi",
